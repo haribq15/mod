@@ -1,0 +1,25 @@
+/* src/components/Header.css */
+.header {
+    background-color: #282c34;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .header h1 {
+    color: #61dafb;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

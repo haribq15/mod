@@ -1,0 +1,23 @@
+/* src/pages/About.css */
+.about-container {
+    padding: 60px 20px;
+    background-color: #fff;
+    min-height: calc(100vh - 160px);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .about-container h2 {
+    color: #282c34;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  

@@ -1,0 +1,79 @@
+/* src/pages/Contact.css */
+.contact-container {
+    padding: 60px 20px;
+    background-color: #fff;
+    min-height: calc(100vh - 160px);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .contact-container h2 {
+    color: #282c34;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .contact-form label:hover {
+    color: #61dafb;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #21a1f1;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    background-color: #21a1f1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1e90ff;
+    transform: scale(1.05);
+  }
+  

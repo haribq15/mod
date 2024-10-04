@@ -1,0 +1,26 @@
+/* src/pages/Home.css */
+.home-container {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f0f8ff;
+    min-height: calc(100vh - 160px); /* Adjust based on header and footer height */
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .home-container h2 {
+    color: #282c34;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
